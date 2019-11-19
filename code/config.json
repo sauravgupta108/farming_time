@@ -1,0 +1,8 @@
+{
+	"MAIN_SCREEN": {
+		"WIDTH": "1300",
+		"HEIGHT": "800",
+		"TITLE": "Game Name"
+	},
+	"FRAME_RATE": "30"
+}
