@@ -1,4 +1,5 @@
 import pygame
+import os
 
 import get_config as conf
 from farm import LetsFarm
@@ -10,6 +11,11 @@ def _set_main_screen(dimensions, title="default"):
 	assert dimensions[0] != 0 and dimensions[1] != 0
 
 	pygame.display.set_caption(title)
+
+	# Set initial map position.
+	initial_pos = conf.get_initial_map_pos()
+	os.environ[conf.get_map_pos_var_name()] = "%d$%d" % (initial_pos[0], initial_pos[1])
+
 	return pygame.display.set_mode(dimensions)
 
 

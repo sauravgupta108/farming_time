@@ -4,5 +4,12 @@
 		"HEIGHT": "800",
 		"TITLE": "Game Name"
 	},
-	"FRAME_RATE": "30"
+	"FRAME_RATE": "30",
+	"MAP": {
+		"ENV_VAR_NAME": "CURRENT_MAP_POS",
+		"INITIAL": {
+			"X_POS": "0",
+			"Y_POS": "0"
+		}
+	}
 }
