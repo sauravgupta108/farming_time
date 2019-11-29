@@ -1,0 +1,90 @@
+{
+    "units": "feet",
+    "point_format": "end_2",
+    "width": "3",
+    "pathways": [
+        {
+            "name": "path_1",
+            "pos_x": "1000",
+            "pos_y": "660",
+            "length": "180",
+            "direction": {
+                "x_axis": "-1",
+                "y_axis": "0"
+            }
+        }, {
+            "name": "path_2",
+            "pos_x": "820",
+            "pos_y": "750",
+            "length": "490",
+            "direction": { "x_axis": "0", "y_axis": "-1" }
+        }, {
+            "name": "path_3",
+            "pos_x": "1000",
+            "pos_y": "260",
+            "length": "180",
+            "direction": { "x_axis": "-1", "y_axis": "0"}
+        }, {
+            "name": "path_4",
+            "pos_x": "997",
+            "pos_y": "257",
+            "length": "255",
+            "direction": { "x_axis":"0", "y_axis": "-1" }
+        }, {
+            "name": "path_5",
+            "pos_x": "817",
+            "pos_y": "650",
+            "length": "70",
+            "direction": { "x_axis": "-1", "y_axis": "0" }
+        }, {
+            "name": "path_6",
+            "pos_x": "770",
+            "pos_y": "748",
+            "length": "770",
+            "direction": { "x_axis": "-1", "y_axis": "0" }
+        }, {
+            "name": "path_7",
+            "pos_x": "770",
+            "pos_y": "650",
+            "length": "470",
+            "direction": { "x_axis": "-1", "y_axis": "0" }
+        }, {
+            "name": "path_8",
+            "pos_x": "600",
+            "pos_y": "100",
+            "length": "100",
+            "direction": { "x_axis": "0", "y_axis": "-1" }
+        }, {
+            "name": "path_9",
+            "pos_x": "400",
+            "pos_y": "647",
+            "length": "500",
+            "direction": { "x_axis": "0", "y_axis": "-1" }
+        }, {
+            "name": "path_10",
+            "pos_x": "397",
+            "pos_y": "350",
+            "length": "100",
+            "direction": { "x_axis": "-1", "y_axis": "0" }
+        }, {
+            "name": "path_11",
+            "pos_x": "397",
+            "pos_y": "80",
+            "length": "100",
+            "direction": { "x_axis": "-1", "y_axis": "0" }
+        }, {
+            "name": "path_12",
+            "pos_x": "300",
+            "pos_y": "550",
+            "length": "300",
+            "direction": { "x_axis": "-1", "y_axis": "0"
+            }
+        }, {
+            "name": "path_13",
+            "pos_x": "5",
+            "pos_y": "450",
+            "length": "350",
+            "direction": { "x_axis": "0", "y_axis": "-1" }
+        }
+    ]
+}

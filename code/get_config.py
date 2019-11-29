@@ -1,5 +1,6 @@
 import os
 import json
+import pygame
 
 
 def _load_configurations():
@@ -69,5 +70,10 @@ def get_initial_map_pos():
 
 
 def get_actual_map_size():
-	return 12000, 10000
+	return 12000, 9000
 
+
+def get_current_map_rect():
+	cur_map_start_x, cur_map_start_y = map(int, os.environ[get_map_pos_var_name()].split("$"))
+	dimension_x, dimension_y = main_screen_dimensions()
+	return pygame.Rect(cur_map_start_x, cur_map_start_y, dimension_x, dimension_y)
